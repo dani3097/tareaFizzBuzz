@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 class programTests {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testUno() {
+		assertEquals(FizzBuzz.fizzBuzz(1),"1");
 	}
 
 }
